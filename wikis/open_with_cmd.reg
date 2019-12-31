@@ -1,29 +1,38 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]
-@="Open With Command"
+﻿Windows Registry Editor Version 5.00
+# 注意编码为ansi  
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here]
+ 
+@="在此处打开命令行CMD"
 "Icon"="cmd.exe"
-
-[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere\command]
-@="cmd.exe /s /k pushd "%V""
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere]
-@="Open With Command"
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\cmd_here\command]
+ 
+@="\"C:\\Windows\\System32\\cmd.exe\""
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\cmdPrompt]
+ 
+@="在此处打开命令行CMD"
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\cmdPrompt\command]
+ 
+@="\"C:\\Windows\\System32\\cmd.exe\" \"cd %1\""
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd_here]
+ 
+@="在此处打开命令行CMD"
 "Icon"="cmd.exe"
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere\command]
-@="cmd.exe /s /k pushd \"%V\""
-
-[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere]
-@="Open With Command"
-"Icon"="cmd.exe"
-
-[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere\command]
-@="cmd.exe /s /k pushd \"%V\""
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere]
-@="Open With Command"
-"Icon"="cmd.exe"
-
-[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere\command]
-@="cmd.exe /s /k pushd \"%V\""
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd_here\command]
+ 
+@="\"C:\\Windows\\System32\\cmd.exe\""

@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe]
+;utf-8
+;"CodePage"=dword:0000fde9
+;ansi/oem gbk, default
+"CodePage"=dword:3a8
+;"FontFamily"=dword:00000036
+;"FontWeight"=dword:00000190
+;"FaceName"="Lucida Console"
+;"ScreenBufferSize"=dword:232900d2
+;"WindowSize"=dword:002b00d2

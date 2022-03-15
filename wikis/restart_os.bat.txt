@@ -1,0 +1,8 @@
+shutdown -r -f -t 0
+shutdown命令用法介绍如下。
+    -r：关闭并重新启动计算机
+    -f：强制关闭正在运行的应用程序，不前台警告用户。当为-t参数指定大于0的值时，则默认使用-f参数
+    -t xxx：设置关闭前的超时时间为xxx秒，有效范围是0-315360000（10年），默认值为30
+
+https://help.aliyun.com/document_detail/40818.html
+

@@ -1,0 +1,8 @@
+@echo off
+ping  -n 2 127.1 >nul
+taskkill /f /t /im 重启的程序.exe
+ping  -n 2 127.1 >nul
+start 重启的程序.exe
+@exit
+
+https://blog.csdn.net/liruidong01/article/details/105724597

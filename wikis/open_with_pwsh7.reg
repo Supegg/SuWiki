@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+ 
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\pwsh_here]
+ 
+@="PowerShell 7 here"
+"Icon"="pwsh.exe"
+ 
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\pwsh_here\command]
+ 
+@="\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\""

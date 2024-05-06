@@ -1,2 +1,2 @@
 # SuWiki
-my public notes
+my public notes.
